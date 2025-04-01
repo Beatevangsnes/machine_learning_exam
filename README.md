@@ -1,11 +1,34 @@
-# Machine Learning exam
+# 🧠 Machine Learning Exam – Sentiment Analysis of Hotel Reviews
 
-## 📦 Hotel Reviews Dataset
+This project uses Natural Language Processing (NLP) and machine learning to classify hotel reviews as positive or negative. Both traditional models and a deep learning model (LSTM) are implemented.
 
-Datasettet Hotel_Reviews.csv er for stort til å ligge på GitHub (over 100MB).
+---
 
-Du kan laste det ned her:
-🔗 [Last ned fra Google Drive](https://drive.google.com/file/d/1Z14B8GhMH8D2kXPhcEHKexL_2UhbWjOj/view?usp=drive_link)
+## 📦 Dataset: Hotel_Reviews.csv
 
-Når du har lastet ned filen, legg den i rotmappen av prosjektet slik at koden finner den:
+The dataset `Hotel_Reviews.csv` is too large to be stored on GitHub (over 100MB).
+
+🔗 **[Download from Google Drive](https://drive.google.com/file/d/1Z14B8GhMH8D2kXPhcEHKexL_2UhbWjOj/view?usp=drive_link)**
+
+After downloading, place the file in the root directory of the project so it can be accessed by the notebook:
+
 ./Hotel_Reviews.csv
+
+---
+
+## 🔧 Environment Setup
+
+It's recommended to use a virtual environment (e.g. `venv` or `conda`) and Jupyter Notebook or VS Code.
+
+This project was developed with **Python 3.12.9**.
+
+### ✅ Install dependencies
+
+If you are using pip:
+
+```bash
+pip install -r requirements.txt
+
+```
+
+Make sure your Jupyter kernel is using the same Python environment where the dependencies are installed.
