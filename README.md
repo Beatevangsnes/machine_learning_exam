@@ -32,3 +32,9 @@ pip install -r requirements.txt
 ```
 
 Make sure your Jupyter kernel is using the same Python environment where the dependencies are installed.
+
+If you are using conda, you can first create and activate a virtual environment (e.g. xxx) and then install the dependencies:
+
+conda create --name xxx python=3.12
+conda activate xxx
+pip install -r requirements.txt
