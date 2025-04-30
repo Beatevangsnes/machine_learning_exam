@@ -4,6 +4,7 @@ seaborn
 matplotlib
 scikit-learn
 nltk
-tensorflow==2.13.0
+tensorflow==2.17.0
+
 
 
